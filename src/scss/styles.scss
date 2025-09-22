@@ -635,8 +635,8 @@
 
     // style the button differently
     a.btn {
-      background-color: $yellow;
-      border-color: $yellow;
+      background-color: var.$yellow;
+      border-color: var.$yellow;
       color: #000; // keep text dark for contrast
     }
   }
