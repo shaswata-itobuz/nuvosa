@@ -14,768 +14,903 @@
 </head>
 
 <body>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg bg-white py-3">
-        <div class="container px-4">
-            <a class="navbar-brand fw-bold fs-4 me-4" href="#">nuvosa<span class="text-danger">•</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header>
+        <nav class="navbar navbar-expand-lg site-navbar">
+            <div class="container">
+                <!-- Brand / Logo -->
+                <a class="navbar-brand brand-logo fw-semibold text-dark fs-3" href="#">nuvosa<span
+                        class="text-danger fs-2">•</span></a>
 
-            <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
-                <ul class="navbar-nav ms-auto mx-5 mb-2 mb-lg-0 gap-lg-4">
-                    <li class="nav-item">
-                        <a class="nav-link active home" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link projects" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Blog" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Pricing" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Contact" href="#">Contact</a>
-                    </li>
-                </ul>
-                <div class="d-flex align-items-center gap-2">
-                    <a href="#" class="btn btn-outline-dark rounded-0 lets-talk">Let’s Talk</a>
-                    <button class=" search search-btn rounded-0" aria-label="Search"></button>
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 nav-links">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+
+                    <!-- Divider -->
+                    <div class="nav-divider d-none d-lg-block"></div>
+
+                    <!-- Buttons -->
+                    <button class="btn-talk rounded-1 bg-white">Let’s Talk</button>
+                    <button class="btn-search ms-2 rounded-1">Q</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- this is hero section -->
+    <section class="hero-section py-3 py-lg-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-xl-6">
+                    <h1 class="section-title text-center text-md-start">
+                        Increase your web<br />
+                        traffic with our
+                        <span class="expert-tag">
+                            <img src="./assets/IMAGE/expert.png" alt="expert" class="expert-img" />
+                        </span>
+                    </h1>
+
+                    <p class="mt-4 my-lg-5 text-center text-md-start">
+                        It is a long established fact that a reader will be distracted by
+                        the readable content of a page when It is a long. It is a long
+                        established fact that a reader will be distracted by the readable
+                        content of a is simply. It is a long established fact that a
+                        reader will be distracted.
+                    </p>
+
+                    <div
+                        class="d-flex flex-row justify-content-center justify-content-md-start align-items-center py-2 gap-4">
+                        <a href="#" class="btn rounded-1 btn-warning px-3 px-lg-5 py-lg-3">Get Started</a>
+                        <a href="#" class="d-flex align-items-center gap-2 text-decoration-none tour-btn">
+                            <img src="./assets/IMAGE/Take a tour.svg" alt="Take a Tour" class="tour-icon" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-xl-6 position-relative text-center mt-lg-0">
+                    <img src="./assets/IMAGE/Group 672.png" alt="Person" class="img-fluid hero-img" />
+
+                    <div
+                        class="creative-team-box shadow-sm rounded-1 d-none d-lg-inline-flex align-items-center gap-3 px-3 py-2 mt-lg-0">
+                        <div>
+                            <p class="mb-1 fs-6 fw-normal">Our Creative Team</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./assets/IMAGE/Ellipse 15.svg" alt="Team member 1"
+                                    class="team-avatar" />
+                                <img src="./assets/IMAGE/Ellipse 16.svg" alt="Team member 2"
+                                    class="team-avatar" />
+                                <img src="./assets/IMAGE/Ellipse 17.svg" alt="Team member 3"
+                                    class="team-avatar" />
+                                <img src="./assets/IMAGE/Ellipse 18.svg" alt="Team member 4"
+                                    class="team-avatar" />
+                                <img src="./assets/IMAGE/+.svg" alt="Team member 4" class="team-avatar" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <main>
-        <!-- hero section -->
-        <section class="hero-section py-section">
-            <div class="container py-lg-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
-                        <div
-                            class="d-flex align-items-center justify-content-center justify-content-lg-start flex-wrap">
-                            <h1 class="display-6 display-md-4 fw-bold me-2 mb-2 mb-lg-0">
-                                Increase your web traffic with our
-                            </h1>
-                            <span class="expert-badge">
-                                <img src="/assets/IMAGE/expert.png" alt="Expert Badge" class="img-fluid"
-                                    style="max-height: 40px" />
-                            </span>
+    </section>
+    
+    <!-- services section -->
+    <section class="services-section py-5">
+        <div class="container py-lg-5">
+            <div class="row g-3 g-xxl-5 justify-content-center">
+                <div class="col-md-4 col-lg-4">
+                    <div class="service-card px-4 pt-4 pb-3 bg-white h-100 d-flex flex-column">
+                        <div class="row d-flex align-items-center gap-md-2">
+                            <div
+                                class="col-xl-4 d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <img src="./assets/IMAGE/message-marketing.svg" alt="Social Media"
+                                    class="service-icon mb-3" />
+                            </div>
+                            <div
+                                class="col d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <h3 class="service-title fw-light">
+                                    Social Media <br />Management
+                                </h3>
+                            </div>
                         </div>
-
-                        <p class="lead mt-3 mb-4 paragraph-small">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when It is a long it is a long
-                            established fact that a reader will be distracted by the
-                            readable content of a is simply. It is a long established fact
-                            that a reader will be distracted.
-                        </p>
-                        <div
-                            class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start align-items-center gap-3 mt-4">
-                            <a href="#" class="btn btn-warning btn-lg rounded-0 w-50 w-sm-auto text-center">
-                                Get Started
-                            </a>
-
-                            <span class="take-a-tour d-flex align-items-center">
-                                <img src="/assets/IMAGE/Take a tour.svg" alt="Take a tour" class="img-fluid"
-                                    style="max-height: 50px" />
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center position-relative">
-                        <img src="/assets/IMAGE/Group 672.png" alt="Woman sitting"
-                            class="img-fluid hero-image move-up" />
-                    </div>
-                </div>
-            </div>
-        </section>
-<!-- this is media container -->
-        <div class="media container my-5">
-            <div class="row justify-content-center row-cols-md-2 row-cols-lg-3">
-                <div class="col d-flex">
-                    <div class="service-card">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="/assets/IMAGE/social-media.png" alt="Social Media Icon"
-                                class="me-3 service-image-small" />
-                            <h4 class="service-title mb-0">Social Media Management</h4>
-                        </div>
-                        <p class="service-description">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content it is a long established fact that...
-                        </p>
-                        <a href="#" class="service-link"> </a>
-                    </div>
-                </div>
-
-                <div class="col d-flex">
-                    <div class="service-card flex-fill">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="/assets/IMAGE/email-marketing.png" alt="Social Media Icon"
-                                class="me-3 service-image-small" />
-                            <h4 class="service-title mb-0">Email Marketing</h4>
-                        </div>
-                        <p class="service-description">
+                        <p
+                            class="service-desc flex-grow-1 justify-content-center justify-content-md-start text-center text-md-start">
                             It is a long established fact that a reader will be distracted
                             by the readable content .It is a long established fact that .
                         </p>
-                        <a href="#" class="service-link"> </a>
+                        <div class="arrow-icon ms-auto my-1">
+                            <img src="./assets/IMAGE/Arrow - Right.svg" alt="" />
+                        </div>
                     </div>
                 </div>
 
-                <div class="col d-flex">
-                    <div class="service-card flex-fill">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="/assets/IMAGE/seo.png" alt="Social Media Icon" class="me-3 service-image-small" />
-                            <h4 class="service-title mb-0">SEO Management</h4>
+                <div class="col-md-4 col-lg-4">
+                    <div class="service-card px-4 pt-4 pb-3 bg-white h-100 d-flex flex-column">
+                        <div class="row d-flex align-items-center gap-md-2">
+                            <div
+                                class="col-xl-4 d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <img src="./assets/IMAGE/email-3rd-section.svg" alt="Email Marketing"
+                                    class="service-icon mb-3" />
+                            </div>
+                            <div
+                                class="col d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <h3 class="service-title fw-light">Email <br />Marketing</h3>
+                            </div>
                         </div>
-                        <p class="service-description">
+                        <p
+                            class="service-desc justify-content-center justify-content-md-start text-center text-md-start flex-grow-1">
+                            It is a long established fact that a reader will be distracted
+                            by the readable content .It is a long established fact that .
+                        </p>
+                        <div class="arrow-icon ms-auto my-1">
+                            <img src="./assets/IMAGE/Arrow - Right.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="service-card px-4 pt-4 pb-3 bg-white h-100 d-flex flex-column">
+                        <div class="row d-flex align-items-center gap-md-2">
+                            <div
+                                class="col-xl-4 d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <img src="./assets/IMAGE/seo-marketing.svg" alt="Email Marketing"
+                                    class="service-icon mb-3" />
+                            </div>
+                            <div
+                                class="col d-flex align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                                <h3 class="service-title fw-light">SEO <br />Management</h3>
+                            </div>
+                        </div>
+                        <p
+                            class="service-desc justify-content-center justify-content-md-start text-center text-md-start flex-grow-1">
                             It is a long established fact that a reader will be distracted
                             by the readable content .It is a long established fact that a
                             reader .
                         </p>
-                        <a href="#" class="service-link"> </a>
+                        <div class="arrow-icon ms-auto my-1">
+                            <img src="./assets/IMAGE/Arrow - Right.svg" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="optimise-business container py-5">
-            <h1 class="mb-3 fw-semibold text-center">
-                Optimising Your <span class="text-primary">Website</span>
-            </h1>
-
-            <p class="text-muted fs-6 mb-5 text-center">
-                It is a long established fact that a reader will be distracted by the
-                readable content of a page when it is a long.
-            </p>
-        </div>
-
-        <div class="optimise-business-cards container py-5">
-            <div class="row g-4">
-                <div class="col-md-3">
-                    <div class="border rounded p-4 text-center position-relative">
-                        <img src="/assets/IMAGE/search.svg" class="mb-3" alt="Icon 1" />
-                        <h5 class="fw-semibold">Keyword Research</h5>
-                        <p class="text-muted small mb-0">
-                            It is a long established fact that a reader will be distracted
-                            by the It is a long established.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="border rounded p-4 text-center position-relative">
-                        <img src="/assets/IMAGE/content-management 1.svg" class="mb-3" alt="Icon 2" />
-                        <h5 class="fw-semibold">Content Optimisation</h5>
-                        <p class="text-muted small mb-0">
-                            It is a long established fact that a reader will be distracted
-                            by the It is a long established.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="border rounded p-4 text-center position-relative">
-                        <img src="/assets/IMAGE/target.svg" class="mb-3" alt="Icon 3" />
-                        <h5 class="fw-semibold">Target Analysis</h5>
-                        <p class="text-muted small mb-0">
-                            It is a long established fact that a reader will be distracted
-                            by the It is a long established.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div
-                        class="border-bottom border-3 border-primary rounded p-4 text-center position-relative shadow-sm">
-                        <img src="/assets/IMAGE/like (1) 1.svg" class="mb-3" alt="Icon 4" />
-                        <h5 class="fw-semibold">Continuous Testing</h5>
-                        <p class="text-muted small mb-0">
-                            It is a long established fact that a reader will be distracted
-                            by the It is a long established.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <section class="business-solution d-flex align-items-center">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 text-center text-lg-start mb-4 mb-lg-0 pe-lg-4">
-                        <h1 class="display-4 fw-bold mb-3">
-                            Perfect Solution For
-                            <span class="text-primary">Your Business</span>
-                        </h1>
-
-                        <p class="fs-5 text-muted mb-4">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout. It
-                            is a long established fact that a reader will be distracted by
-                            the readable content of.
-                        </p>
-                        <a href="#" class="btn btn-lg btn-business-primary fw-bold px-4 py-2 rounded-0">Learn More</a>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <img src="/assets/IMAGE/laptop-img.svg" class="img-fluid" alt="Dashboard on Laptop" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="card-below-optimise-business container mt-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 p-3 shadow-sm border-0">
-                        <div class="icon-square bg-red-light mb-3"></div>
-                        <h5 class="card-title text-center">Grow Your Business</h5>
-                        <p class="card-text text-muted text-center">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
-                        </p>
-                        <p class="card-link text-center text-primary">Read More...</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3 shadow-lg border-0">
-                        <div class="icon-square bg-green-light mb-3"></div>
-                        <h5 class="card-title text-center">Get Quality Leads</h5>
-                        <p class="card-text text-muted text-center">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
-                        </p>
-                        <p class="card-link mt-auto text-center text-primary">
-                            Read More...
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3 shadow-sm border-0">
-                        <div class="icon-square bg-yellow-light mb-3"></div>
-                        <h5 class="card-title text-center">Drive More Sales</h5>
-                        <p class="card-text fs-6 font-muted text-center">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
-                        </p>
-                        <p class="card-link text-center text-primary">Read More ...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container py-5">
-            <h2 class="fw-bold text-center">
-                Why should you <br /><span class="text-primary">Choose Us</span>
-            </h2>
-            <div class="col-12 col-md-8 offset-md-2">
-                <p class="text-muted align-content-center text-center">
-                    It is a long established fact that a reader will be distracted by
-                    the readable content. It is a long established fact that a reader.
-                    It is a long established fact that a reader will be.
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm text-center h-100 p-4">
-                        <img src="/assets/IMAGE/optimisation.svg" class="img-fluid mx-auto mb-3" alt="Icon 1" />
-                        <h5 class="fw-semibold">See Optimazadion</h5>
-                        <p class="text-muted small">
-                            It is a long established fact that a reader will be distracted
-                            by. It is a long established.
-                        </p>
-                        <a href="#" class="btn btn-warning btn-sm mt-auto rounded-0">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm text-center h-100 p-4">
-                        <img src="/assets/IMAGE/keyword-search.svg" class="img-fluid mx-auto mb-3" alt="Icon 2" />
-                        <h5 class="fw-semibold">Keyword Research</h5>
-                        <p class="text-muted small">
-                            It is a long established fact that a reader will be distracted
-                            by. It is a long established.
-                        </p>
-                        <a href="#" class="btn btn-warning btn-sm mt-auto rounded-0">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm text-center h-100 p-4">
-                        <img src="/assets/IMAGE/social-marketing.png" class="img-fluid mx-auto mb-3" alt="Icon 3" />
-                        <h5 class="fw-semibold">Social Marketing</h5>
-                        <p class="text-muted small">
-                            It is a long established fact that a reader will be distracted
-                            by. It is a long established.
-                        </p>
-                        <a href="#" class="btn btn-warning btn-sm mt-auto rounded-0">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-                    <img src="/assets/IMAGE/seo-grp.svg" alt="Main Illustration" class="img-fluid" />
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="fw-bold mb-3 text-center">
-                        You Make Ask What SEO <br />
-                        & Why Do You <span class="text-primary">Need It?</span>
+    </section>
+    <!-- perfect solution for our business -->
+    <section class="ad-section d-flex align-items-center py-3 p-lg-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5 justify-content-center justify-content-md-start text-center text-md-start">
+                    <h2>
+                        Perfect Solution For Your
+                        <span class="text-blue">Business</span>
                     </h2>
-
-                    <p class="text-muted mb-5 text-center">
+                    <p class="my-4">
                         It is a long established fact that a reader will be distracted by
-                        the readable content. It is a long established fact that a reader.
-                        It is a long.
+                        the readable content of a page when looking at its layout. The
+                        point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters.
+                    </p>
+                    <a class="btn rounded-1 btn-warning px-3 px-lg-5 py-lg-3 all-btn">Learn More</a>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end mt-5 mt-lg-0">
+                    <img src="./assets/IMAGE/laptop-img.svg" alt="Business Dashboard on Laptop"
+                        class="img-fluid hero-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-section icon-bg py-5">
+        <div class="container py-lg-5">
+            <div class="row justify-content-center gap-4 gap-md-0 gap-lg-3 gap-xl-4">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="icon-card bg-white">
+                        <div
+                            class="icon-container justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/Lightning-alt.svg" alt="Keyword Research Icon"
+                                class="img-fluid icon" />
+                        </div>
+                        <h4
+                            class="feature-title my-lg-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            Grow ur Business
+                        </h4>
+                        <p
+                            class="feature-description justify-content-center justify-content-md-start text-center text-md-start">
+                            It is a long established fact that a reader will be distracted
+                            by.
+                        </p>
+                        <div
+                            class="arrow-icon ms-auto mt-3 justify-content-center justify-content-md-start text-center text-md-start">
+                            <p class="text-blue">Read more...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="icon-card bg-white">
+                        <div
+                            class="icon-container justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/sales.svg" alt="Content Optimisation Icon"
+                                class="img-fluid icon" />
+                        </div>
+                        <h4
+                            class="feature-title my-lg-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            Get Quality leads
+                        </h4>
+                        <p
+                            class="feature-description justify-content-center justify-content-md-start text-center text-md-start">
+                            It is a long established fact that a reader will be distracted
+                            by.
+                        </p>
+                        <div
+                            class="arrow-icon ms-auto mt-3 justify-content-center justify-content-md-start text-center text-md-start">
+                            <p class="text-blue">Read more...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="icon-card bg-white">
+                        <div
+                            class="icon-container justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/quality.svg" alt="Target Analysis Icon" class="img-fluid icon" />
+                        </div>
+                        <h4
+                            class="feature-title my-lg-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            Drive more sales
+                        </h4>
+                        <p
+                            class="feature-description justify-content-center justify-content-md-start text-center text-md-start">
+                            It is a long established fact that a reader will be distracted
+                            by.
+                        </p>
+                        <div
+                            class="arrow-icon ms-auto mt-3 justify-content-center justify-content-md-start text-center text-md-start">
+                            <p class="text-blue">Read more...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why should we choose us -->
+    <section class="card-section text-bg-light py-5">
+        <div class="container py-xl-5">
+            <div class="row justify-content-center d-flex gap-3 gap-md-0 align-items-stretch">
+                <div class="col-lg-9">
+                    <h2 class="section-title text-center">
+                        Why you should <span class="text-blue">Choose Us.</span>
+                    </h2>
+                    <p class="section-subtitle text-center mx-auto">
+                        It is a long established fact that a reader will be distracted by
+                        the readable content .It is a long established fact that a reader
+                        .It is a long established fact that a reader will be .
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center d-flex gap-3 gap-md-0">
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="icon-card bg-white p-3">
+                        <div class="img-container justify-content-center">
+                            <img src="./assets/IMAGE/image 30.svg" alt="Keyword Research Icon" class="img-fluid" />
+                        </div>
+                        <h4 class="feature-title py-lg-4">See optimazadion</h4>
+                        <p class="feature-description">
+                            It is a long established fact that a reader will be distracted
+                            by the it is a long established.
+                        </p>
+                        <a class="my-lg-3 mb-lg-5 btn rounded-1 btn-warning btn-lg fs-6 px-lg-4 py-lg-3 all-btn">Learn
+                            More</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="icon-card bg-white p-3">
+                        <div class="img-container justify-content-center">
+                            <img src="./assets/IMAGE/social-marketing.png" alt="Keyword Research Icon"
+                                class="img-fluid" />
+                        </div>
+                        <h4 class="feature-title py-lg-4">Keyword Research</h4>
+                        <p class="feature-description">
+                            It is a long established fact that a reader will be distracted
+                            by the it is a long established.
+                        </p>
+                        <a class="my-lg-3 mb-lg-5 btn rounded-1 btn-warning btn-lg fs-6 px-lg-4 py-lg-3 all-btn">Learn
+                            More</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="icon-card bg-white p-3">
+                        <div class="img-container justify-content-center">
+                            <img src="./assets/IMAGE/optimisation.svg" alt="Keyword Research Icon" class="img-fluid" />
+                        </div>
+                        <h4 class="feature-title py-lg-4">Social Marketting</h4>
+                        <p class="feature-description">
+                            It is a long established fact that a reader will be distracted
+                            by the it is a long established.
+                        </p>
+                        <a class="my-lg-3 mb-lg-5 btn rounded-1 btn-warning btn-lg fs-6 px-lg-4 py-lg-3 all-btn">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- seo-section -->
+    <section class="seo-section seo-bg py-3 py-lg-5">
+        <div class="container pt-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="./assets/IMAGE/seo-grp.svg" alt="img" class="img-fluid custom-left-img" />
+                </div>
+
+                <div class="col-xl-6 px-4 px-md-5">
+                    <h2 class="section-title justify-content-center justify-content-md-start text-center text-md-start">
+                        You May Ask What SEO & Why Do You
+                        <span class="text-blue">Need It?</span>
+                    </h2>
+                    <p
+                        class="section-subtitle justify-content-center justify-content-md-start text-center text-md-start">
+                        It is a long established fact that a reader will be distracted by
+                        the readable content. It is a long established fact that a reader
+                        it is a long.
                     </p>
 
-                    <div class="card mb-4 shadow-sm border-0 rounded-3 p-3">
-                        <div class="d-flex align-items-center">
-                            <img src="/assets/IMAGE/media-marketing.svg" alt="Social Media" class="me-3"
-                                style="width: 60px; height: 60px" />
-                            <div>
-                                <h5 class="mb-1 fw-semibold">Social Media Marketing</h5>
-                                <p class="text-muted mb-0">
-                                    It is a long established fact that a reader will be
-                                    distracted by the.
-                                </p>
-                            </div>
+                    <div class="marketing-card p-3 px-xxl-5 d-flex gap-3 gap-md-0">
+                        <div
+                            class="icon-wrapper social-media-icon me-md-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/social-media-seo.svg" alt="Social" class="icon-img" />
+                        </div>
+                        <div
+                            class="d-flex row align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                            <h5 class="feature-title">Social Media Marketing</h5>
+                            <p class="feature-description">
+                                It is a long established fact that a reader will be distracted
+                                by the
+                            </p>
                         </div>
                     </div>
 
-                    <div class="card mb-4 shadow-sm border-0 rounded-3 p-3">
-                        <div class="d-flex align-items-center">
-                            <img src="/assets/IMAGE/email-marketing.svg" alt="Email" class="me-3"
-                                style="width: 60px; height: 60px" />
-                            <div>
-                                <h5 class="mb-1 fw-semibold">Email Marketing</h5>
-                                <p class="text-muted mb-0">
-                                    It is a long established fact that a reader will be
-                                    distracted by the.
-                                </p>
-                            </div>
+                    <div class="marketing-card p-3 px-xxl-5 d-flex gap-3 gap-md-0">
+                        <div
+                            class="icon-wrapper email-marketing-icon me-md-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/email-marketing.svg" alt="Email" class="icon-img" />
+                        </div>
+                        <div
+                            class="d-flex row align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                            <h5 class="feature-title">Email Marketing</h5>
+                            <p class="feature-description">
+                                It is a long established fact that a reader will be distracted
+                                by the
+                            </p>
                         </div>
                     </div>
 
-                    <div class="card shadow-sm border-0 rounded-3 p-3">
-                        <div class="d-flex align-items-center">
-                            <img src="/assets/IMAGE/seo-marketing.svg" alt="SEO" class="me-3"
-                                style="width: 60px; height: 60px" />
-                            <div>
-                                <h5 class="mb-1 fw-semibold">SEO Optimization</h5>
-                                <p class="text-muted mb-0">
-                                    It is a long established fact that a reader will be
-                                    distracted by the.
-                                </p>
-                            </div>
+                    <div class="marketing-card p-3 px-xxl-5 d-flex gap-3 gap-md-0">
+                        <div
+                            class="icon-wrapper seo-optimization-icon me-md-4 justify-content-center justify-content-md-start text-center text-md-start">
+                            <img src="./assets/IMAGE/seo-optimisation-section.svg" alt="seo" class="icon-img" />
+                        </div>
+                        <div
+                            class="d-flex row align-items-center justify-content-center justify-content-md-start text-center text-md-start">
+                            <h5 class="feature-title">SEO Optimization</h5>
+                            <p class="feature-description">
+                                It is a long established fact that a reader will be distracted
+                                by the.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- statistics section-->
+    <section>
         <div class="container my-5">
-            <div class="stats-box d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+            <div class="stats-box d-flex flex-column flex-md-row justify-content-around align-items-center gap-4">
                 <div class="text-center">
-                    <div class="stats-number">86</div>
-                    <div class="stats-text">Happy Clients</div>
+                    <div class="stats-number text-secondary">86</div>
+                    <div class="stats-text text-secondary">Happy Clients</div>
                 </div>
 
                 <span class="dot dot-red d-md-inline"></span>
 
                 <div class="text-center">
-                    <div class="stats-number">118</div>
-                    <div class="stats-text">Project Done</div>
+                    <div class="stats-number text-secondary">118</div>
+                    <div class="stats-text text-secondary">Project Done</div>
                 </div>
 
                 <span class="dot dot-green d-md-inline"></span>
 
                 <div class="text-center">
-                    <div class="stats-number">6+</div>
-                    <div class="stats-text">Years Of Experience</div>
+                    <div class="stats-number text-secondary">6+</div>
+                    <div class="stats-text text-secondary">Years Of Experience</div>
                 </div>
 
                 <span class="dot dot-yellow d-md-inline"></span>
 
                 <div class="text-center">
-                    <div class="stats-number">14</div>
-                    <div class="stats-text">National Awards</div>
+                    <div class="stats-number text-secondary">14</div>
+                    <div class="stats-text text-secondary">National Awards</div>
                 </div>
             </div>
         </div>
-
-        <section class="wrapper my-5">
-            <div class="container">
-                <div class="row align-items-center g-4">
-                    <div class="col-12 col-lg-6 text-center text-lg-start">
-                        <h2 class="fw-bold">
-                            Check Your Website <span class="text-primary">Speed</span>
-                        </h2>
-                        <p class="text-muted my-3">
-                            It is a long established fact that a reader will be distracted
-                            by the readable content. It is a long established fact that a
-                            reader. It is a long.
-                        </p>
-
-                        <form class="d-flex flex-column flex-sm-row gap-2 mt-4">
-                            <input type="text" class="form-control rounded-0" placeholder="Web URL" />
-                            <input type="email" class="form-control rounded-0" placeholder="Email Address" />
-                            <button class="btn btn-warning px-4 rounded-0">Submit</button>
-                        </form>
-                    </div>
-
-                    <div class="col-12 col-lg-6 text-center">
-                        <img src="/assets/IMAGE/image 33.png" alt="Website Speed Illustration" class="img-fluid" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="plans-container text-center">
-            <div class="section-title fs-1">Our Plans</div>
-            <div class="section-sub-title text-muted">
-                Choose the right SEO for you
-            </div>
-        </div>
-
+    </section>
+    <!-- check your website speed -->
+    <section class="stats-bg">
         <div class="container py-5">
-            <div class="row g-4 text-center">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="p-4 pricing-card h-100">
-                        <h5 class="fw-bold text-primary">Plus</h5>
-                        <div class="price">$46 <small>/Month</small></div>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>408GB Bandwidth</li>
-                            <li>Business & Finance Analysing</li>
-                            <li>24 Hour Support</li>
-                            <li>Customer Management</li>
-                        </ul>
-                        <button class="btn btn-outline-dark">Get Started</button>
+            <div class="row align-items-center">
+                <div
+                    class="col-xl-7 px-4 px-md-5 justify-content-center justify-content-md-start text-center text-md-start">
+                    <h2 class="section-title">
+                        Check your Website <span class="text-blue">Speed</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        It is a long established fact that a reader will be distracted by
+                        the readable content. It is a long established fact that a reader
+                        it is a long.
+                    </p>
+                    <form class="d-flex flex-column flex-md-row gap-md-0 gap-3">
+                        <input type="url" class="form-control rounded-0 bg-colour" placeholder="   Web URL" />
+                        <input type="email" class="form-control rounded-0 bg-colour" placeholder="   Email Address" />
+                        <button type="submit" class="ms-lg-4 btn rounded-1 btn-warning px-lg-4 py-lg-3 fs-6">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg d-flex justify-content-center">
+                    <img src="./assets/IMAGE/image 33.png" alt="img" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards=below=website speed -->
+    <section class="card-section plan-bg text-bg-light py-3 py-lg-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="section-title">Our Plans</h2>
+                    <p class="section-subtitle">Choose the right SEO for You.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center d-flex gap-3 gap-md-0">
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="normal-card align-content-center py-md-5">
+                        <span class="top-title">Plus</span>
+                        <h4 class="feature-title py-3 pt-lg-5 pb-lg-4">
+                            <sup class="font-20">$</sup>46<span class="superscript-font-size">/Month</span>
+                        </h4>
+                        <p class="feature-description">40GB Bandwidth</p>
+                        <p class="feature-description">Business & Finance Analyzing</p>
+                        <p class="feature-description">24 Hour Support</p>
+                        <p class="feature-description">Customer Management</p>
+                        <a class="my-lg-5 mb-lg-5 btn rounded-1 border-black btn-lg fs-6 px-lg-4 py-lg-3 button">Get
+                            Started</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="p-4 pricing-card h-100">
-                        <h5 class="fw-bold text-primary">Beginner</h5>
-                        <div class="price">$66 <small>/Month</small></div>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>408GB Bandwidth</li>
-                            <li>Business & Finance Analysing</li>
-                            <li>24 Hour Support</li>
-                            <li>Customer Management</li>
-                        </ul>
-                        <button class="btn btn-outline-dark">Get Started</button>
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="normal-card align-content-center py-md-5">
+                        <span class="top-title">Begineer</span>
+                        <h4 class="feature-title py-3 pt-lg-5 pb-lg-4">
+                            <sup class="font-20">$</sup>66<span class="superscript-font-size">/Month</span>
+                        </h4>
+                        <p class="feature-description">40GB Bandwidth</p>
+                        <p class="feature-description">Business & Finance Analysing</p>
+                        <p class="feature-description">24 Hour Support</p>
+                        <p class="feature-description">Customer Management</p>
+                        <a class="my-lg-5 mb-lg-5 btn rounded-1 border-black btn-lg fs-6 px-lg-4 py-lg-3 buttton">Get
+                            Started</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="p-4 pricing-card h-100">
-                        <h5 class="fw-bold text-primary">Advanced</h5>
-                        <div class="price">$86 <small>/Month</small></div>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>408GB Bandwidth</li>
-                            <li>Business & Finance Analysing</li>
-                            <li>24 Hour Support</li>
-                            <li>Customer Management</li>
-                        </ul>
-                        <button class="btn btn-outline-dark">Get Started</button>
+                <div class="col-xl-3 col-md-4 col-sm-12 text-center">
+                    <div class="normal-card align-content-center py-md-5">
+                        <span class="top-title">Advanced</span>
+                        <h4 class="feature-title py-3 pt-lg-5 pb-lg-4">
+                            <sup class="font-20">$</sup>86<span class="superscript-font-size">/Month</span>
+                        </h4>
+                        <p class="feature-description">40GB Bandwidth</p>
+                        <p class="feature-description">Business & Finance Analysing</p>
+                        <p class="feature-description">24 Hour Support</p>
+                        <p class="feature-description">Customer Management</p>
+                        <a class="my-lg-5 mb-lg-5 btn rounded-1 border-black btn-lg fs-6 px-lg-4 py-lg-3 buttpn">Get
+                            Started</a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="container-fluid p-4">
-            <div class="row gap-2">
-                <div class="col-lg-10 col-12 offset-lg-1 p-5">
-                    <div class="col-12 text-center gap-3 gap-lg-3">
-                        <h2 class="fs-1 mb-3">Our Expert Team <span class="text-primary">Members</span></h2>
-                        <p class="text-secondary font-small pb-5">
-                            It is a long established fact that a reader will be distracted by
-                            the readable <br />content .It is a long established fact that a
-                            reader
+    <!-- Expert team members -->
+    <section class="team-section team-bg py-5">
+        <div class="container py-lg-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="section-title">
+                        Our Expert Team <span class="text-blue">Members</span>
+                    </h2>
+                    <p class="section-subtitle pt-lg-2 pb-lg-4">
+                        It is a long established fact that a reader will be distracted by,<br>
+                        the readable content. It is a long established fact that a reader
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- expert section carrousel -->
+    <section>
+        <div class="container my-5">
+
+            <div id="desktopCarousel" class="carousel slide d-none d-lg-block" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/muriel.png" class="rounded-circle mx-auto d-block"
+                                        alt="Muriel Whee">
+                                    <h5>Muriel Whee</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/john.png" class="rounded-circle mx-auto d-block"
+                                        alt="John Doe">
+                                    <h5>John Doe</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/clay.png" class="rounded-circle mx-auto d-block"
+                                        alt="Clay Porter">
+                                    <h5>Clay Porter</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/dough.png" class="rounded-circle mx-auto d-block"
+                                        alt="Doug Norm">
+                                    <h5>Doug Norm</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/muriel.png" class="rounded-circle mx-auto d-block"
+                                        alt="Muriel Whee">
+                                    <h5>Muriel Whee</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/john.png" class="rounded-circle mx-auto d-block"
+                                        alt="John Doe">
+                                    <h5>John Doe</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/clay.png" class="rounded-circle mx-auto d-block"
+                                        alt="Clay Porter">
+                                    <h5>Clay Porter</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="team-card text-center">
+                                    <img src="./assets/IMAGE/dough.png" class="rounded-circle mx-auto d-block"
+                                        alt="Doug Norm">
+                                    <h5>Doug Norm</h5>
+                                    <p>Marketing Manager</p>
+                                    <div class="d-flex justify-content-center gap-3 mt-2">
+                                        <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                        <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#desktopCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#desktopCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+
+            <div id="mobileCarousel" class="carousel slide d-lg-none" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="team-card text-center">
+                            <img src="./assets/IMAGE/muriel.png" class="rounded-circle mx-auto d-block"
+                                alt="Muriel Whee">
+                            <h5>Muriel Whee</h5>
+                            <p>Marketing Manager</p>
+                            <div class="d-flex justify-content-center gap-3 mt-2">
+                                <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="team-card text-center">
+                            <img src="./assets/IMAGE/john.png" class="rounded-circle mx-auto d-block" alt="John Doe">
+                            <h5>John Doe</h5>
+                            <p>Marketing Manager</p>
+                            <div class="d-flex justify-content-center gap-3 mt-2">
+                                <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="team-card text-center">
+                            <img src="./assets/IMAGE/clay.png" class="rounded-circle mx-auto d-block" alt="Clay Porter">
+                            <h5>Clay Porter</h5>
+                            <p>Marketing Manager</p>
+                            <div class="d-flex justify-content-center gap-3 mt-2">
+                                <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="team-card text-center">
+                            <img src="./assets/IMAGE/dough.png" class="rounded-circle mx-auto d-block" alt="Doug Norm">
+                            <h5>Doug Norm</h5>
+                            <p>Marketing Manager</p>
+                            <div class="d-flex justify-content-center gap-3 mt-2">
+                                <a href="#"><img src="./assets/IMAGE/google.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/insta.svg" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/twitter.png" width="24"></a>
+                                <a href="#"><img src="./assets/IMAGE/facebook.svg" width="14"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mobileCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mobileCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- infinite scrolling section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="testimonials-title">Our Client Say</h2>
+            <p class="testimonials-subtitle">It is a long established fact that a reader will be distracted by the readable content .It is a</p>
+
+            <div class="marquee-wrapper">
+                <div class="marquee-container d-flex">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-12 text-center">
-                            <div class="col-11 pt-5 pb-5 experts-hover-effect">
-                                <img src="./assets/IMAGE/muriel.png" alt="" style="width: 50%" />
-                                <h3 class="fs-5 pt-3">Muriel Whee</h3>
-                                <p class="experts-text-secodary font-small">
-                                    Marketing Manager
-                                </p>
-                                <div class="row">
-                                    <div class="col-2 offset-2">
-                                        <img src="./assets/IMAGE/google.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/insta.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/twitter.png" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/facebook.svg" alt="" style="width: 15px" />
-                                    </div>
-                                </div>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="./assets/IMAGE/Ellipse 404 (1).svg" alt="John Doey">
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-12 text-center">
-                            <div class="col-11 pt-5 pb-5 experts-hover-effect">
-                                <img src="./assets/IMAGE/muriel.png" alt="" style="width: 50%" />
-                                <h3 class="fs-5 pt-3">Muriel Whee</h3>
-                                <p class="experts-text-secodary font-small">
-                                    Marketing Manager
-                                </p>
-                                <div class="row">
-                                    <div class="col-2 offset-2">
-                                        <img src="./assets/IMAGE/google.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/insta.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/twitter.png" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/facebook.svg" alt="" style="width: 15px" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12 text-center">
-                            <div class="col-11 pt-5 pb-5 experts-hover-effect">
-                                <img src="./assets/IMAGE/muriel.png" alt="" style="width: 50%" />
-                                <h3 class="fs-5 pt-3">Muriel Whee</h3>
-                                <p class="experts-text-secodary font-small">
-                                    Marketing Manager
-                                </p>
-                                <div class="row">
-                                    <div class="col-2 offset-2">
-                                        <img src="./assets/IMAGE/google.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/insta.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/twitter.png" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/facebook.svg" alt="" style="width: 15px" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-12 text-center">
-                            <div class="col-11 pt-5 pb-5 experts-hover-effect">
-                                <img src="./assets/IMAGE/muriel.png" alt="" style="width: 50%" />
-                                <h3 class="fs-5 pt-3">Muriel Whee</h3>
-                                <p class="experts-text-secodary text-secondary font-small">
-                                    Marketing Manager
-                                </p>
-                                <div class="row">
-                                    <div class="col-2 offset-2">
-                                        <img src="./assets/IMAGE/google.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/insta.svg" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/twitter.png" alt="" style="width: 25px" />
-                                    </div>
-                                    <div class="col-2">
-                                        <img src="./assets/IMAGE/facebook.svg" alt="" style="width: 15px" />
-                                    </div>
-                                </div>
-                            </div>
+                            <h6 class="client-name">John Doey</h6>
+                            <p class="client-title">Ship Builder</p>
                         </div>
                     </div>
+
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        </p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="./assets/IMAGE/Ellipse 404 (2).svg" alt="Clay Porter">
+                            </div>
+                            <h6 class="client-name">Clay Porter</h6>
+                            <p class="client-title">Copywriter</p>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate cards for marquee effect -->
+                     <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        </p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="./assets/IMAGE/Ellipse 404.svg" alt="Clay Porter">
+                            </div>
+                            <h6 class="client-name">Clay Porter</h6>
+                            <p class="client-title">Ship Builder</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        </p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="./assets/IMAGE/Ellipse 404 (2).svg" alt="Clay Porter">
+                            </div>
+                            <h6 class="client-name">Clay Porter</h6>
+                            <p class="client-title">Copywriter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination-dots">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- subscribe and cosmetics section -->
+    <section class="container py-lg-5">
+        <div class="row my-3 align-items-center justify-content-center">
+            <div class="col-lg-10 py-3 col-12 text-bg-light p-md-5">
+                <div class="px-4 px-md-5">
+                    <h2 class="section-title text-center">
+                        Subscribe & find the perfect Cosmetics
+                    </h2>
+                    <p class="section-subtitle text-center">
+                        Enter your email and get updated new products & news.
+                    </p>
+                    <form class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                        <input type="url" class="form-control custom-font-size py-lg-3 rounded-0 max-w-400"
+                            placeholder="    Name" />
+                        <input type="email" class="form-control custom-font-size py-lg-3 rounded-0 max-w-400"
+                            placeholder="    Email Address" />
+                        <button type="submit"
+                            class="btn rounded-1 px-3 px-lg-5 py-lg-3 btn-lg btn-primary text-white blue-btn">
+                            Subscribe
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- carrousel -->
-        <section class="testimonials-section">
-            <div class="container">
-                <h2 class="section-title text-center">Our Clients Say</h2>
-                <p class="section-subtitle text-center">
-                    It is a long established fact that a reader will be distracted<br>
-                    by the readable content... it is a
-                </p>
-
-                <div class="marquee-wrapper">
-                    <div class="marquee-container">
-                        <!-- First set of testimonials -->
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Duplicate set for seamless scrolling -->
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="card-content">
-                                <p class="testimonial-text">
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content. It is a long
-                                    established fact that a reader
-                                </p>
-                                <div class="client-info">
-                                    <div class="client-avatar">
-                                        <img src="./assets/images/image.png" alt="Clay Porter" class="rounded-circle">
-                                    </div>
-                                    <div class="client-details">
-                                        <h6 class="client-name">Clay Porter</h6>
-                                        <p class="client-title">Copywriter</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Pagination dots -->
-                <div class="pagination-dots d-flex justify-content-center mt-4">
-                    <span class="dot"></span>
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-
-    <footer class="footer-section py-5">
+    <!-- footer -->
+    <footer class="footer-section py-3 py-lg-5">
         <div class="container text-center">
             <div class="logo mb-4">
                 <h4 class="fw-semibold mb-0 text-black">
-                    nuvosa<span class="text-danger">•</span>
+                    <span class="fw-medium text-dark fs-1">nuvosa</span><span class="text-danger fs-2">•</span>
                 </h4>
             </div>
 
             <ul class="nav justify-content-center mb-4 flex-wrap">
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-black" href="#">Overview</a>
+                    <a class="nav-link text-dark px-3" href="#">Overview</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-black" href="#">Pricing</a>
+                    <a class="nav-link px-3 text-dark" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-black" href="#">Careers</a>
+                    <a class="nav-link px-3 text-dark" href="#">Careers</a>
                 </li>
-                <li class="nav-item"><a class="nav-link px-3 text-black" href="#">Help</a></li>
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-black" href="#">Privacy</a>
+                    <a class="nav-link px-3 text-dark" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 text-dark" href="#">Privacy</a>
                 </li>
             </ul>
 
             <hr class="border-secondary mb-4" />
 
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small gap-3">
-                <div>Copyright © 2023 Nuvosa, All Rights Reserved.</div>
-                <div class="d-flex flex-wrap gap-3">
-                    <a href="#" class="text-decoration-none text-black">Terms Of Use</a>
-                    <a href="#" class="text-decoration-none text-black">Copyright & Trademark</a>
-                    <a href="#" class="text-decoration-none text-black">Policy</a>
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small gap-3 px-lg-5">
+                <div class="text-muted">
+                    Copyright © 2023 Nuvosa, All Rights Reserved.
                 </div>
+                <ul
+                    class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start list-unstyled text-center text-md-start bottom-link">
+                    <li>
+                        <a class="text-muted text-decoration-none fs-sm" href="#">Terms Of Use</a>
+                    </li>
+                    <li>
+                        <a class="text-muted text-decoration-none" href="#">Copyright & Trademark</a>
+                    </li>
+                    <li>
+                        <a class="text-muted text-decoration-none fs-sm" href="#">Policy</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
