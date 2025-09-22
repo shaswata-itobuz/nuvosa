@@ -1,6 +1,15 @@
 // Import all of Bootstrap’s CSS
 @use 'var';
 @import "bootstrap/scss/bootstrap";
+@import url(./nav-bar.scss);
+@import url(./hero-section.scss);
+@import url(./advertisement.scss);
+@import url(./cards.scss);
+@import url(./expert-section.scss);
+@import url(./seo-section.scss);
+@import url(./statistics.scss);
+@import url(./testimonials.scss);
+
 
 
 
@@ -21,7 +30,7 @@
   }
 }
 
-//afjustments to navbar for breakpoints between 768 and 1400px
+//adjustments to navbar for breakpoints between 768 and 1400px
 
 //nav link design
 
@@ -411,7 +420,7 @@
 
 .feature-description {
   font-size: 17px;
-  color: #6c757d; // fallback for var.$text-muted
+  color: #6c757d; 
 
   @media (max-width: 1000px) {
     font-size: 14px;
@@ -586,7 +595,7 @@
 }
 
 
-//cards-section
+//plans -cards-section
 
 .normal-card {
   .top-title {

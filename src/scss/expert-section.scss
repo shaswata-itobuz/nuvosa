@@ -1,0 +1,41 @@
+@use "var";
+.team-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 120px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  h5, a:first-child {
+    transition: color 0.3s ease;
+  }
+
+  &:hover, &:focus-within, &:active {
+    background-color:white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+    transform: translateY(-5px);
+
+    h5 {
+      color:var.$secondary-color;
+    }
+
+    a:first-child {
+      color: var.$secondary-color
+    }
+;
+    img {
+      transform: scale(1.05); 
+    }
+  }
+}
+

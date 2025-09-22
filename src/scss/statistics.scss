@@ -1,0 +1,58 @@
+@use "var";
+
+.stats-box {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #fff;
+}
+
+.stats-number {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.stats-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.dot-red {
+  background: #c0392b;
+}
+
+.dot-green {
+  background: #27ae60;
+}
+
+.dot-yellow {
+  background: #f1c40f;
+}
+
+
+@media (max-width:764px) {
+  .stats-text {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1000px) {
+  .stats-number {
+    font-size: 1.5rem;
+  }
+
+  .stats-text {
+    font-size: 1rem;
+  }
+}
+

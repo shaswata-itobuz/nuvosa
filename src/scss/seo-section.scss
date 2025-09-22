@@ -1,0 +1,14 @@
+@use "var";
+.text-blue {
+  color: var.$secondary-color;
+}
+
+.marketing-card {
+  border-radius: 0.2rem;
+  transition: all 0.3ms ease;
+}
+
+.marketing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 10px -10px #021605;
+}
