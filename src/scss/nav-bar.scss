@@ -35,10 +35,17 @@
     display: flex;
   }
 }
+@media (min-width: 1000px) and (max-width: 1599px)
+{
+ .navbar-expand-lg .navbar-collapse
+ {
+  justify-content: space-between;
+ }
+}
 
 
+@media (min-width: 1200px) and (max-width: 1799px) {
 
-@media (min-width: 1000px) and (max-width: 1799px) {
   .nav-links {
     margin-left: 8rem;
     margin-right: 6rem;
